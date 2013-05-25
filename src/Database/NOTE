@@ -1,0 +1,4 @@
+备注（由于系统暂时过小，暂不过多考虑可扩展性，mark一下）：
+	这里比较靠谱点的方法是采用适配器模式，设计一层数据库操作对外的统一接口，
+设计多个adapter 实现这层接口，并委托给PrepareStatement,Statement,Resultset
+等类
